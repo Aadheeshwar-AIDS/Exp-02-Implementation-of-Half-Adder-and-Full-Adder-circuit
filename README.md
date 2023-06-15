@@ -42,7 +42,7 @@ Developed by:Aadheeshwar.A
 RegisterNumber:212221230001  
 */
 ~~~
-HALF ADDER:
+FULL ADDER:
 
 module ex2(A,B,Cin,S,Cout);
 input A,B,Cin;
@@ -55,7 +55,7 @@ and(F,A,B);
 or(Cout,E,F);
 endmodule
 
-FULL ADDER:
+HALF ADDER:
 
 module ex2(a,b,sum,carry);
 input a,b;
